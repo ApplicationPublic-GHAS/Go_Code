@@ -3,6 +3,7 @@ module github.com/CircleCI-Public/sample-go-cfd
 go 1.13
 
 require (
+        golang.org/x/text v0.1.0
 	github.com/gin-contrib/cors v1.4.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
@@ -15,4 +16,5 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gorm.io/driver/postgres v1.4.5
 	gorm.io/gorm v1.24.1-0.20221019064659-5dd2bb482755
+        
 )

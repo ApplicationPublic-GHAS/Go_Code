@@ -13,4 +13,11 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"      
+      interval: "daily"   
+      
+registries:
+  go-artifactory:
+    type: go
+    url: https://tbh.jfrog.io/artifactory/go
+    username: asthag@cybage.com
+    password: ${{secrets.ARTIFACTORY}}
